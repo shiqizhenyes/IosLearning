@@ -14,6 +14,8 @@
 		149293682120499B00E49868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149293662120499B00E49868 /* LaunchScreen.storyboard */; };
 		149293732120499B00E49868 /* IosDay01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149293722120499B00E49868 /* IosDay01Tests.swift */; };
 		1492937E2120499B00E49868 /* IosDay01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492937D2120499B00E49868 /* IosDay01UITests.swift */; };
+		1492938C2123ADFC00E49868 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492938B2123ADFC00E49868 /* Card.swift */; };
+		1492938E2123AF4300E49868 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492938D2123AF4300E49868 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		149293792120499B00E49868 /* IosDay01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosDay01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1492937D2120499B00E49868 /* IosDay01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosDay01UITests.swift; sourceTree = "<group>"; };
 		1492937F2120499B00E49868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1492938B2123ADFC00E49868 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1492938D2123AF4300E49868 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				1492935D2120499A00E49868 /* AppDelegate.swift */,
 				1492935F2120499A00E49868 /* ViewController.swift */,
-				149293612120499A00E49868 /* Main.storyboard */,
 				149293642120499B00E49868 /* Assets.xcassets */,
 				149293662120499B00E49868 /* LaunchScreen.storyboard */,
+				149293612120499A00E49868 /* Main.storyboard */,
 				149293692120499B00E49868 /* Info.plist */,
+				1492938B2123ADFC00E49868 /* Card.swift */,
+				1492938D2123AF4300E49868 /* Concentration.swift */,
 			);
 			path = IosDay01;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				149293602120499A00E49868 /* ViewController.swift in Sources */,
+				1492938E2123AF4300E49868 /* Concentration.swift in Sources */,
+				1492938C2123ADFC00E49868 /* Card.swift in Sources */,
 				1492935E2120499A00E49868 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
